@@ -1,0 +1,26 @@
+@startuml
+interface PaymentMethod {
+  virtual void handle() = 0;
+}
+
+class CreditCardPayment {
+}
+
+class DebitCardPayment {
+}
+
+class CashOnDeliveryPayment {
+}
+
+class PaymentHandler {
+  void handlePayment(PaymentMethod*);
+}
+
+
+
+PaymentMethod <|.. CreditCardPayment 
+PaymentMethod <|.. DebitCardPayment 
+PaymentMethod <|.. CashOnDeliveryPayment 
+
+PaymentHandler o-- PaymentMethod
+@enduml
