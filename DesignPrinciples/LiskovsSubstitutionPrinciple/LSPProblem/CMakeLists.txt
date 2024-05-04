@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project (DosaKadai VERSION 5.0.0)
+project (LSPProblem VERSION 5.0.0)
 
 file(GLOB_RECURSE LIB_SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp)
 

@@ -3,9 +3,10 @@
 
 #include <iostream>
 #include <string>
-#include <Manager.h>
 
 using namespace std;
+
+class Manager;
 
 class Employee
 {
@@ -27,6 +28,5 @@ public:
     void setFirstName(const string &firstName);
 
     float salary() const;
-    void setSalary(float salary);
 };
 #endif

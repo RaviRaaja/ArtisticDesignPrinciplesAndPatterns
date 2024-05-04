@@ -9,12 +9,10 @@ string Employee::firstName() const { return m_firstName; }
 void Employee::setFirstName(const string &firstName) { m_firstName = firstName; }
 
 float Employee::salary() const { return m_salary; }
-void Employee::setSalary(float salary) { m_salary = salary; }
 
-
-// void Employee::assignManager(Manager* manager)  {
-//     m_manager = std::move(manager);
-// }
+void Employee::assignManager(Manager* manager)  {
+    m_manager = std::move(manager);
+}
 
 void Employee::computeSalary(int level) {
     float baseSalaryPerHour = 10.0;
