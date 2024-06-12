@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/lld-repo-logo.png" width="350" height="200">
+  <img src="images/download.png" width="500" height="200">
 </p>
 Learn Low Level Design (LLD) and prepare for interviews using free resources.
 <p align="justify">
