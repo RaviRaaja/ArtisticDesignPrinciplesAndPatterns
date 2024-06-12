@@ -1,10 +1,8 @@
 <p align="center">
   <img src="images/download.png" width="500" height="200">
 </p>
-Learn Low Level Design (LLD) and prepare for interviews using free resources.
-<p align="justify">
-  <a href="https://www.linkedin.com/in/raviraajal/">LinkedIn</a> | <a href="https://www.youtube.com/@NativeLearning">YouTube</a>
-</p>
+
+Learn Low Level Design (LLD) and prepare for interviews using free resources. <p align="justify"> <a href="https://www.linkedin.com/in/raviraajal/">LinkedIn</a> | <a href="https://www.youtube.com/@NativeLearning">YouTube</a></p>
 
 ## Design Patterns
 ### Creational Patterns
