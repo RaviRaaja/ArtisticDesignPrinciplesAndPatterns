@@ -29,4 +29,4 @@ cmake --build build
 Contributors names and contact info
 
 RaviRaaja 
-ex. [@raviraajal](https://www.linkedin.com/in/raviraajal/)
+[@raviraajal](https://www.linkedin.com/in/raviraajal/)
