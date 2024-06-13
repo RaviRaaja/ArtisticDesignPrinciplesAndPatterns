@@ -1,4 +1,4 @@
-# Notify Me / Subscribe functionality in Youtube
+# Design of Notify Me functionality
 
 Low level design of subscribe functionality.
 
