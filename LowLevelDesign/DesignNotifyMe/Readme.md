@@ -17,7 +17,7 @@ This project includes low level design to notify me functionality / Bell icon fu
 * How to run the program
 
 ```
-cd NOTIFY\ ME/
+cd DesignNotifyMe
 cmake -Bbuild
 cmake --build build
 ./build/driver
