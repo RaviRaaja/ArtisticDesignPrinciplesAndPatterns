@@ -1,7 +1,10 @@
+#ifdef PREREQUISITE
 #include "prerequisite/BindFunctionality.h"
 #include "prerequisite/CallbackFunctionsUsingFunctional.h"
 #include "prerequisite/CallbackFunctionsUsingLambda.h"
 #include "prerequisite/DependencyInjection.h"
+#endif
+#include "SimpleObserver.h"
 #include <iostream>
 
 int main() {
@@ -15,8 +18,7 @@ int main() {
 
   callback::functional::testCBUsingFunctional();
   callback::lambda::testCallbackUsingLambda();
-#else
-  std::cout << "Test" << std::endl;
+  simpleObserverTest();
 #endif
   return 0;
 }

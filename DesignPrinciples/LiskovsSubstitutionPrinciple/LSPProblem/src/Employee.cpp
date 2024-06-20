@@ -11,6 +11,7 @@ void Employee::setFirstName(const string &firstName) { m_firstName = firstName; 
 float Employee::salary() const { return m_salary; }
 
 Employee* Employee::manager() const { return m_manager; }
+
 void Employee::assignManager(Employee* manager)  {
     m_manager = std::move(manager);
 }
