@@ -4,6 +4,12 @@
 *.lo
 *.o
 *.obj
+# Ignore all executable files in the project root and subdirectories
+**/*.exe
+**/*.out
+**/*.o
+**/*.obj
+
 
 # Precompiled Headers
 *.gch
@@ -13,7 +19,7 @@
 *.so
 *.dylib
 *.dll
-
+**/.vscode/
 # Fortran module files
 *.mod
 *.smod
