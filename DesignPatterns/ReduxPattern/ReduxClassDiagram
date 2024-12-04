@@ -1,0 +1,38 @@
+```mermaid
+classDiagram
+    class Action {
+        +ActionType type
+        +int payload
+    }
+
+    class State {
+        +int counter
+    }
+        class Store {
+        -State m_state
+        -ReducerType m_reducer
+        -vector~ListnerType~ m_listeners
+        +Store(State initialState, ReducerType reducer)
+        +void dispatch(Action action)
+        +State getState()
+        +void subscribe(ListnerType listener)
+        -void notifyListeners()
+    }
+    class ActionType {
+        <<enumeration>>
+        INCREMENT
+        DECREMENT
+    }
+    
+	class ReducerType { <<std::function>> +State reducer(State state, Action action) }
+	class ListnerType { <<std::function>> +void listener() }
+
+    Action "1" -- "1" ActionType : has
+    Store "1" -- "1" State : holds
+    Store "1" -- "1" ReducerType : uses
+    Store "1" -- "*" ListnerType : subscribes
+    State "1" -- "*" Action : processedBy
+    ReducerType "1" -- "*" Action : processes
+
+   
+```
