@@ -1,10 +1,10 @@
-# Design of Notify Me functionality
+# Design Logger
 
 Low level design of subscribe functionality.
 
 ## Description
 
-This project includes low level design to notify me functionality / Bell icon functionality in youtube.
+This project includes low level design to logger.
 
 ### Dependencies
 
